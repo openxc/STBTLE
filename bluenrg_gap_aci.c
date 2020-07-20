@@ -33,7 +33,7 @@
 #ifdef BLUENRG_MS
 tBleStatus aci_gap_init(uint8_t role, uint8_t privacy_enabled, uint8_t device_name_char_len, uint16_t* service_handle, uint16_t* dev_name_char_handle, uint16_t* appearance_char_handle)
 {
-#warning "BLUENRG_MS was defined" 
+//#warning "BLUENRG_MS was defined" 
   struct hci_request rq;
   gap_init_cp cp;
   gap_init_rp resp;
